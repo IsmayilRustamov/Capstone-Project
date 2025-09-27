@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+  <nav>
+    <a href="./home.html">Home</a>
+    <a href="./education.html">Education</a>
+    <a href="./contact_me.html">Contact Me</a>
+    <a href="./weekly_schedule.html">Weekly Schedule</a>
+    <h2>Contact Me</h2>
+  </nav>
+
+    <h2>Contact Me</h2>
+
+<form action="mailto:irustamov20511@ada.edu.az" method="post" enctype="text/plain">
+
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+   
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    
+    <p>How did you find my website?</p>
+    <input type="radio" id="friend" name="referral" value="Friend">
+    <label for="friend">Friend</label> <br>
+    <input type="radio" id="search" name="referral" value="Search Engine">
+    <label for="search">Search Engine</label> <br>
+    <input type="radio" id="other" name="referral" value="Other">
+    <label for="other">Other</label> <br><br>
+
+    
+    <p>What are you interested in?</p>
+    <input type="checkbox" id="hiking" name="interest" value="Hiking">
+    <label for="hiking">Hiking</label><br>
+    <input type="checkbox" id="football" name="interest" value="Football">
+    <label for="football">Football</label><br>
+    <input type="checkbox" id="music" name="interest" value="Music">
+    <label for="music">Music</label><br><br>
+
+    
+    <label for="contact-method">Preferred contact method:</label><br>
+    <select id="contact-method" name="contact-method">
+        <option value="email">Email</option>
+        <option value="phone">Phone</option>
+        <option value="whatsapp">WhatsApp</option>
+    </select><br><br>
+
+    
+    <label for="message">Your Message:</label><br>
+    <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+
+    <input type="submit" value="Send">
+</form>
+
+</body>
+</html>
